@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="FileMonitor.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="RemotePOS" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">AU20200135P01-G</Value>
+    </Setting>
+    <Setting Name="RemoteFSPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">GSS\AutomatedTesting</Value>
+    </Setting>
+    <Setting Name="NotificationFile" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Handball.txt</Value>
+    </Setting>
+    <Setting Name="BoomerangFile" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">CleansedActualsData.txt</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

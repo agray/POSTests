@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Include>
+  <!-- Product name as you want it to appear in Add/Remove Programs-->
+  <?if $(var.Platform) = x64 ?>
+  <?define ProductName = "AsserterService (64 bit)" ?>
+  <?define Win64 = "yes" ?>
+  <?define PlatformProgramFilesFolder = "ProgramFiles64Folder" ?>
+  <?else ?>
+  <?define ProductName = "AsserterService" ?>
+  <?define ProductRootDir = "$(sys.CURRENTDIR)..\AsserterService" ?>
+  <?define ProductBinDir = "$(var.ProductRootDir)\bin\Release" ?>
+  <?define ServiceAccount = "ts" ?>
+  <?define ServicePassword = "$Upp0rt!" ?>
+
+  <?define Win64 = "no" ?>
+  <?define PlatformProgramFilesFolder = "C:\Program Files" ?>
+  <?endif ?>
+</Include>

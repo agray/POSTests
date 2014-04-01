@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Include>
+  <!-- Product name as you want it to appear in Add/Remove Programs-->
+  <?if $(var.Platform) = x64 ?>
+  <?define ProductName = "FileMonitor (64 bit)" ?>
+  <?define Win64 = "yes" ?>
+  <?define PlatformProgramFilesFolder = "ProgramFiles64Folder" ?>
+  <?else ?>
+  <?define ProductName = "FileMonitor" ?>
+  <?define ProductRootDir = "$(sys.CURRENTDIR)..\FileMonitor" ?>
+  <?define ProductBinDir = "$(var.ProductRootDir)\bin\Release" ?>
+
+  <?define Win64 = "no" ?>
+  <?define PlatformProgramFilesFolder = "C:\Program Files" ?>
+  <?endif ?>
+</Include>

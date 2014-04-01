@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="BPServiceController.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="RemoteBOS" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Au20200135b01-g</Value>
+    </Setting>
+    <Setting Name="SyBaseServiceName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">IBS_gds_db</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,51 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="RemoteServices.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SQLUser" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SYSDBA</Value>
+    </Setting>
+    <Setting Name="SQLPassword" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Xilater</Value>
+    </Setting>
+    <Setting Name="RemotePOS" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">AU20200135P01-G</Value>
+    </Setting>
+    <Setting Name="AdminUser" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ts</Value>
+    </Setting>
+    <Setting Name="AdminPassword" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">$Upp0rt!</Value>
+    </Setting>
+    <Setting Name="NormalisedStateTries" Type="System.Int64" Scope="Application">
+      <Value Profile="(Default)">5000</Value>
+    </Setting>
+    <Setting Name="DriveLetter" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">K</Value>
+    </Setting>
+    <Setting Name="SyBaseServiceName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">IBS_gds_db</Value>
+    </Setting>
+    <Setting Name="RemoteFSPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">GSS\AutomatedTesting</Value>
+    </Setting>
+    <Setting Name="NotificationFile" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Handball.txt</Value>
+    </Setting>
+    <Setting Name="LocalOnly" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="BoomerangFile" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">CleansedActualsData.txt</Value>
+    </Setting>
+    <Setting Name="TransactionAssertionTemplateFile" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">AssertTrans_TEMPLATE.sql</Value>
+    </Setting>
+    <Setting Name="TransactionAssertionConcreteFile" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">AssertTrans.sql</Value>
+    </Setting>
+    <Setting Name="RawActualsFile" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ActualsData.txt</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
